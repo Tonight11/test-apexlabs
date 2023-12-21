@@ -1,0 +1,72 @@
+@import './base.css';
+
+#app {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	font-weight: normal;
+}
+
+a,
+.green {
+	text-decoration: none;
+	color: hsla(160, 100%, 37%, 1);
+	transition: 0.4s;
+	padding: 3px;
+}
+
+@media (hover: hover) {
+	a:hover {
+		background-color: hsla(160, 100%, 37%, 0.2);
+	}
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.input-group {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: 50px;
+	row-gap: 20px;
+}
+
+.input-control {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.input-control__icon {
+	cursor: pointer;
+	background-color: white;
+	padding: 4px 8px;
+	border-radius: 3px;
+	border: 1px solid #00b96b;
+}
+
+.input-control__icon span {
+	color: black;
+}
+
+input:disabled {
+	color: black !important;
+	background-color: transparent !important;
+}
+
+input:disabled::-webkit-input-placeholder {
+	color: rgb(59, 59, 59) !important;
+}
+input:disabled:-moz-placeholder {
+	color: rgb(59, 59, 59) !important;
+}
+input:disabled::-moz-placeholder {
+	color: rgb(59, 59, 59) !important;
+}
+input:disabled:-ms-input-placeholder {
+	color: rgb(59, 59, 59) !important;
+}

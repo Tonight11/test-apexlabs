@@ -1,0 +1,50 @@
+{
+	"selectedProgram": "",
+	"HD": {
+		"concentrator": "HD. концетрапторы",
+		"dialyzer": "HD. диализер",
+		"volume": "10 л."
+	},
+	"HDF": {
+		"concentrator": "HDF. концетрапторы",
+		"dialyzer": "HDF. диализер",
+		"volume": "15 л."
+	},
+	"UF": {
+		"concentrator": "UF. концетрапторы",
+		"dialyzer": "UF. диализер",
+		"volume": "5 л."
+	},
+	"selectedNeedle": "",
+	"needle": "Спр. иглы",
+	"needleType": "Спр. Типы иглы",
+	"catheter": "Спр. катетер",
+	"catheterType": "Спр. Типы катетер",
+	"needleItem": ["Иглы №1"],
+	"needleTypeItem": ["Венозные"],
+	"catheterItem": ["Катетер №1"],
+	"catheterTypeItem": ["Артерия"],
+	"bicarbonate": "",
+	"dryWeight": "",
+	"anticoagulation": "",
+	"volume": "",
+	"medicine": "",
+	"medicineItem": ["Лекарственые препараты"],
+	"path": "",
+	"dozirovka": "",
+	"sitNumbers": [],
+	"dateStart": null,
+	"dateEnd": null,
+	"days": 0,
+	"tableData": [],
+	"homeMedicine": "",
+	"homePath": "",
+	"homeDozirovka": "",
+	"homeDay": "",
+	"homeStart": null,
+	"homeEnd": null,
+	"homeCount": 0,
+	"homeInfo": [],
+	"recomend": "",
+	"recomendItems": []
+}
